@@ -1,0 +1,41 @@
+<!--[main]-->
+<style>
+ .topo{
+           background:#ccc;
+          text-align:center;
+            font-weight: bold;
+          
+      }
+      .conteudo{
+                   text-align:center;
+               }
+               
+               
+</style >
+<h3 align="center">Pessoas cadastradas na Audiêcia n° {$idaudiencia}</h3>
+
+        <table align="center" width="100%">
+        <tr class="topo">        
+        <td class="conteudo" width="5%">Ação</td>
+        <td class="conteudo" width="5%">id</td>
+        <td class="conteudo" width="40%">Nome</td>
+        <td class="conteudo" width="20%">Posto/Graduação</td>
+        <td class="conteudo" width="20%">Nome de Guerra</td>
+        </tr>
+       
+       
+         <!--[pessoa]-->
+          <tr>  
+        <td class="conteudo">{$butao}</td>       
+        <td class="conteudo">{$idpessoa}</td>
+        <td class="conteudo">{$nome}</td>
+        <td class="conteudo">{$posto}</td>
+        <td class="conteudo">{$guerra}</td>
+          </tr>
+        <!--[/pessoa]-->
+                   
+   
+   </table>
+<!--[/main]-->
+
+

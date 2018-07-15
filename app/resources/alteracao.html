@@ -1,0 +1,37 @@
+
+<!--[main]-->
+<style>
+ .topo{
+           background:#ccc;
+          text-align:center;
+            font-weight: bold;
+          
+      }
+      .conteudo{
+                   text-align:center;
+               }
+</style >
+<h3 align="center">Alteraçoes cadastradas </h3>
+<table align="center" width="100%">
+<tr class="topo">
+<td width="0%">ação</td>
+<td width="0%">id</td>
+<td width="40%">Data Evento</td>
+<td width="30%">Viatura</td>
+</tr>
+
+  <!--[alteracao]-->
+  <tr class="conteudo">
+    <td>
+  <a onclick="onVizualizar">{$botao}</a>
+  </td>
+  <td>
+  {$id}
+  </td>
+  <td>{$dataevento}</td>
+  <td>{$id_viatura}</td>
+  </tr>
+   <!--[/alteracao]-->
+   
+   </table>
+<!--[/main]-->
